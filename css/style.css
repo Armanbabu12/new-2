@@ -1,0 +1,369 @@
+/* * start genarel style */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    background: white;
+    color: black;
+}
+ul{
+    font-family: 'Nunito', sans-serif; 
+}
+ul li{
+    font-family: 'Nunito', sans-serif; 
+}
+/* End genarel style */
+
+/* start sec1 */
+.sec1{
+    background-image: url(../img/slider1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* margin: 0px 50px; */
+   }
+   .sec1container{
+       height: 500px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center; 
+   }
+   .sec1 h1{
+       color: aqua;
+       font-size: 40px; 
+   }
+   .sec1 h3{
+       color: white;
+       font-size: 20px;
+       padding-top: 17px;
+       padding-bottom: 36px;
+   }
+   .btn1{
+       background: aqua;
+       color: white;
+       padding: 10px 30px 10px 30px ;
+       border-radius: 30px 30px 30px 30px;
+   }
+   .btn2{
+       background: black;
+       color: white;
+       padding: 10px 30px 10px 30px ;
+       border-radius: 30px 30px 30px 30px;
+   }
+   /* end sec1 */
+
+   /* start sec2 */
+.sec2{
+    background: #ffffff;
+    padding: 100px 100px 70px 100px;
+    text-align: center; 
+    }
+    .sec2 h1{
+        color: aqua;
+        font-size: 30px;
+        padding-bottom: 20px;
+      
+    }
+    .sec2 p{
+        color: black;
+        font-size: 16px;
+        line-height: 30px;
+     
+    }
+    /* end sec2 */
+
+    /* start sec3 */
+.sec3{
+    padding: 0px 100px;
+    }
+    .s3box{
+        display: flex;
+    }
+    .sec3left{
+        flex-basis: 50%;
+        padding-top: 30px;
+    }
+    .sec3left h1{
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .sec3left p{
+        color: black;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: justify;
+        margin-right: 18px;
+        margin-top: 15px;       
+    }
+    .sec3right{
+        flex-basis: 50%;
+    }
+    .sec3right img{
+        width: 100%;
+    }
+    ul{
+        list-style: none;
+        padding-top: 15px;
+        line-height: 35px;
+    }
+    ul li i{
+        color: yellow;
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    .s3btn{
+        background: aqua;
+        color: white;
+        padding: 10px 30px 10px 30px ;
+        border-radius: 30px 30px 30px 30px;
+        margin-top: 18px;
+        display: inline-block;
+        box-shadow: 2px 2px 0px 0px grey;
+    }
+    /* end sec3 */
+
+    /* start sec4 */
+.sec4{
+        padding: 0px 100px;
+        margin-top: 100px;
+    }
+    .s4box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box{
+        flex-basis: 32%;
+        background: #f7f4f4;
+        border-radius: 3px;
+        margin-bottom: 1.5%;
+        padding: 25px 30px 20px 30px;
+        border: 2px solid white;
+        text-align: center;
+    }
+    .box1{
+        flex-basis: 32%;
+        background: #f7f4f4;
+        border-radius: 3px;
+        margin-bottom: 1.5%;
+        padding: 25px 30px 20px 30px;
+        border: 2px solid white;
+        text-align: center;
+        margin-top: -8px;
+    }
+    .box1 img{
+        width: 20%;
+    }
+    .box img{
+        width: 20%;
+    }
+    .box1 h1{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .box h1{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .box1 p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .box p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .s4h1{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .s4btn{
+        background: aqua;
+        color: white;
+        padding: 10px 40px 10px 40px ;
+        border-radius: 2px;
+        margin-top: 12px;
+        display: inline-block;
+    }
+  /* end sec4 */
+
+  /* stat sec5 */
+.btn5{
+    background: aqua;
+    color: white;
+    padding: 10px 30px 10px 30px ;
+    border-radius: 2px 2px 2px 2px;
+    margin-right: 5px;
+    }
+    .sec5{
+        background-image: url(../img/bg-section-traveler.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 30px 0px 0px 0px;
+       }
+       .sec5container{
+           height: 200px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           text-align: center; 
+       }
+       .sec5 h3{
+           color: white;
+           font-size: 19px;
+           padding-top: 18px;
+           padding-bottom: 30px;
+       }
+/* end sec5 */
+
+/* start sec6 */
+.sec6{
+    padding-left: 120px;
+    padding-right: 120px;
+    }
+    .sec6box{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box-6{
+        flex-basis: 32%;
+        transition: transform 0.5s;
+        text-align: center;
+    }
+    .box-6 img{
+        background: white;
+        border: 3px solid aqua;
+        text-align: center;
+        width: 93%;
+        padding-bottom: 5px;
+    }
+    .sec6container{
+        text-align: center;
+        margin: 0 auto 20px;
+        position: relative;
+        padding-top: 20px;
+        line-height: 60px;
+        color: black;
+    }
+    .box-6 h6{
+       font-size: 12px;
+    }
+    .box-6 a:hover{
+        background: rebeccapurple;
+        color: red;
+    }
+    .box-6 h3{
+        color: black;
+        font-weight: normal;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .box-6:hover{
+        transform: translateY(-5px);
+    }
+    .s6btn{
+        background: white;
+        color: black;
+        border: 3px solid aqua;
+        padding: 10px 35px 10px 35px ;
+        border-radius: 30px 30px 30px 30px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+/* end sec6 */
+
+/* start sec7 */
+.sec7{
+    background: #ffffff;
+    padding: 100px;
+    text-align: center;   
+    }
+    .sec7 h1{
+        color: black;
+        font-size: 26px;
+        padding-bottom: 35px;
+      
+    }
+    .sec7 p{
+        color: black;
+        font-size: 14px;
+        line-height: 30px;
+     
+    }
+/* end sec7 */
+
+/* start sec8 */
+.sec8{
+    padding: 40px 100px 80px 100px;
+}
+.sec8 h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sec8 form{
+    width: 500px;
+    margin: auto;
+}
+.sec8 form input{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 15px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+}
+.sec8 form input:focus{
+    outline: none;
+}
+.sec8 form textarea{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 15px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+}
+.sec8 form textarea:focus{
+    outline: none;
+}
+.n1m{
+    color: red;
+}
+#submit-btn{
+    width: 135px;
+    background: aqua;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* end sec8 */
+
+/* start footer */
+.footer{
+    background: #000000;
+    color: #ffffff;
+    padding: 20px 100px;
+    text-align: center;
+    /* margin: 0px 50px; */
+}
+/* end footer */
+
